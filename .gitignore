@@ -1,0 +1,27 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Smart Calculator/*
+!/Smart Calculator/task/
+/Smart Calculator/task/*
+!/Smart Calculator/task/src/
+!/Smart Calculator/task/build.gradle
+!/Smart Calculator/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/BigInteger/Division/out/
+/Topics/BigInteger/Division/out/production/classes/
+/Topics/BigInteger/Percentage/out/
+/Topics/BigInteger/Percentage/out/production/classes/
